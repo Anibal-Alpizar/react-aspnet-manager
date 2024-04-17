@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "AsoApi.Controllers.UsuarioController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Usuario/ChangePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changePasswordRequest",
+        "Type": "ChangePasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsoApi.Controllers.UsuarioController",
+    "Method": "InformacionUsuario",
+    "RelativePath": "api/Usuario/InformacionUsuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsoApi.Controllers.UsuarioController",
+    "Method": "Login",
+    "RelativePath": "api/Usuario/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "encargado",
+        "Type": "AsoApi.Models.Encargado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsoApi.Controllers.UsuarioController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Usuario/ResetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AsoApi.Controllers.UsuarioController",
+    "Method": "SignOut",
+    "RelativePath": "api/Usuario/SignOut",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
